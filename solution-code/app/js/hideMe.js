@@ -1,4 +1,4 @@
-angular.module('FlashCards')
+angular.module('FlashCards', ['ngAnimate'])
 .directive("hideMe", ['ngAnimate', function($animate){
     return function(scope, element, attrs){
             scope.$watch(attrs.hideMe, function(){
