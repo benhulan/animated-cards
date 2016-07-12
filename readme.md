@@ -344,3 +344,9 @@ You have 15 minutes! Go!
 - Where can you imagine using custom directives?
 - What four types of directives can you make?
 - How do you pass information into a custom directive?
+
+
+
+## Licensing
+All content is licensed under a CC­BY­NC­SA 4.0 license.
+All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.
