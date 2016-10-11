@@ -30,11 +30,17 @@ h1:after, .card h6:after {
   margin-left: 0.192rem;
 }
 
+.ng-isolate-scope {
+  background: #FFF !important;
+  padding-top: 0 !important;
+}
+
 .card {
   background: #231e1e;
   border-color: black;
+  border-radius: 0.75em;
   color: white;
-  padding: 1rem;
+  padding: 1em;
   min-height: 16rem;
   position: relative;
 }
@@ -71,10 +77,14 @@ h1:after, .card h6:after {
   animation-iteration-count: 1;
 }
 
+/*.ng-isolate-scope {
+  padding: 0;
+}*/
+
 .card-title.ng-hide {
   line-height: 1;
   opacity: 0;
-  padding: 0 10px;
+  padding: 0 1em;
 }
 
 
