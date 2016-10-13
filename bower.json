@@ -1,0 +1,20 @@
+{
+  "name": "animated-cards",
+  "homepage": "https://github.com/benhulan/animated-cards",
+  "authors": [
+    "Ben Hulan <benhulan@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "^1.18.5"
+  }
+}
