@@ -1,5 +1,6 @@
 angular.module('FlashCards')
 .controller('cardsController', ['$scope', '$http', function($scope, $http){
+    $scope.cards = [];
 
     $scope.hideMe = function(){
       $scope.answerHidden = true;
@@ -24,7 +25,7 @@ angular.module('FlashCards')
       });
 
 
-  $scope.cards = [
+  // $scope.cards = [
     // {
     //   _id: 1,
     //   question: "What is Superman's guilty pleasure?", 
@@ -79,7 +80,7 @@ angular.module('FlashCards')
     //   answer: "I'm glad you asked.",
     //   answerHidden: true
     // }
-  ];
+  // ];
 
 }]);
 
